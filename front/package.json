@@ -1,0 +1,49 @@
+{
+  "name": "white-city-38-website",
+  "private": true,
+  "description": "A simple website for Irkutsk district White City",
+  "version": "0.1.0",
+  "author": "Morgen Matvey <Morgen Matvey>",
+  "dependencies": {
+    "@svgr/webpack": "^5.4.0",
+    "gatsby": "^2.24.36",
+    "gatsby-image": "^2.4.14",
+    "gatsby-plugin-google-analytics": "^2.3.13",
+    "gatsby-plugin-manifest": "^2.4.22",
+    "gatsby-plugin-offline": "^3.2.22",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-sharp": "^2.6.25",
+    "gatsby-plugin-svgr": "^2.0.2",
+    "gatsby-plugin-yandex-metrika": "^2.4.0",
+    "gatsby-source-filesystem": "^2.3.24",
+    "gatsby-transformer-sharp": "^2.5.12",
+    "mdbreact": "^4.27.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0"
+  },
+  "keywords": [
+    "White City",
+    "material-design",
+    "Irkutsk"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anna-morawska/gatsby-material-design-for-bootstrap"
+  },
+  "bugs": {
+    "url": "https://github.com/anna-morawska/gatsby-material-design-for-bootstrap/issues"
+  }
+}
